@@ -21,7 +21,7 @@ Le programme "Huffman" doit être exécuté de la manière suivante:
 - Un menu apparaît, choisissez parmi la compression (1) et la décompression (2). Si vous sélectionnez la compression un fichier « compression.txt » est créer. Si vous sélectionnez la décompression un fichier « décompression.txt » se créer.
 - Entrer la commande "make clear" lorsque vous avez terminé d'utiliser le programme.
 
-## DEMARCHE 
+## Demarche
 Afin de mieux appréhender le projet nous avons tout d’abord effectué une lecture approfondie du sujet afin d’en comprendre tous les aspects. Ensuite nous avons effectué de longues sessions de brainstorming afin d’entamer ce projet de la meilleure manière possible. 
 
 En premier lieu nous avons crée l’ensemble des fonctions/procédures et structures utiles à évaluer le nombre d’occurrences de chaque caractère apparaissant dans le texte. On s’est ensuite penché sur la création de l’arbre qui classe les caractères. On a poursuivi notre avancé en attribuant un nouveaux code à chaque caractère qu’on a soigneusement placé en en-tête du nouveau fichier de compression.
