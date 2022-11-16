@@ -18,7 +18,6 @@ decompresse.o: decompresse.c decompresse.h
 
 main.o: main.c fonctions.h trisRapide.h compresse.h decompresse.h
 	gcc -c main.c -o main.o $(CFLAGS)
-	@echo "FUCK ZACH sale merde personne t'aime sal dog"
 
 clean:
 	rm -f *.o
