@@ -4,7 +4,7 @@ exe: fonctions.o trisRapide.o main.o compresse.o decompresse.o
 	gcc -Wall fonctions.o trisRapide.o main.o compresse.o decompresse.o -o exe
 	touch compressé.txt
 
-fonctions.o: fonctions.c fonctions.h compresse.h 
+fonctions.o: fonctions.c fonctions.h
 	gcc -c fonctions.c -o fonctions.o $(CFLAGS)
 
 trisRapide.o: trisRapide.c trisRapide.h
